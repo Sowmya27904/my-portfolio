@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mallipati Sowmya Lalitha - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="sowmya.jpg" alt="My Photo" class="profile-photo" />
+    <h1>Mallipati Sowmya Lalitha</h1>
+    <p>Aspiring Embedded & VLSI Engineer</p>
+    <nav>
+      <button onclick="showSection('about')">About Me</button>
+      <button onclick="showSection('skills')">Skills</button>
+      <button onclick="showSection('projects')">Projects</button>
+      <button onclick="showSection('contact')">Contact</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" class="content-section hidden">
+      <h2>About Me</h2>
+      <p>
+        I am Mallipati Sowmya Lalitha, a passionate ECE student aiming to create impactful solutions in embedded systems,
+        VLSI, and sustainable technology. I'm positive, devotional, and always eager to learn.
+      </p>
+    </section>
+
+    <section id="skills" class="content-section hidden">
+      <h2>Skills & Interests</h2>
+      <ul>
+        <li>HTML, CSS, Python (Beginner)</li>
+        <li>Embedded Systems, VLSI</li>
+        <li>Teamwork, Public Speaking, Leadership</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="content-section hidden">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>🚦 Dynamic Traffic Control System</h3>
+        <p>
+          Built using sensors and backend logic to optimize traffic light timings in real-time based on vehicle density.
+        </p>
+      </div>
+      <div class="project">
+        <h3>📧 Spam Detection using Machine Learning</h3>
+        <p>
+          Developed a spam classifier model that detects unsolicited emails using NLP and supervised ML algorithms.
+        </p>
+      </div>
+      <div class="project">
+        <h3>🌱 Biodegradable Soil Moisture Sensor</h3>
+        <p>A project aimed at reducing e-waste using natural materials in farming tech.</p>
+      </div>
+      <div class="project">
+        <h3>🚗 Road Detection System</h3>
+        <p>ML-based system to identify road areas for autonomous driving support.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="content-section hidden">
+      <h2>Contact Me</h2>
+      <p>Email: mallipatisowmya@gmail.com</p>
+      <div class="buttons">
+        <a href="https://github.com/Sowmya27904" target="_blank" class="btn">GitHub</a>
+        <a href="https://linkedin.com/in/sowmya2709" target="_blank" class="btn">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mallipati Sowmya Lalitha. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
